@@ -1,15 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: "Alice", serif;
+  line-height: 150%;
+}
+
 body{
   background-image: url(./assets/bg-image.jpg);
   background-size: cover; /* Cobre todo o espaço do body com a imagem*/
 }
 #page{
-  box-sizing: border-box;
   padding: 24px;
   width: 800px;
   background-color: #F0E8C2;
   margin: 48px auto 100px;
   border-radius: 24px;
 }
+main{
+  padding: 24px;
+}
+section + section{
+  margin-top: 24px;
+}
+#about p + p{
+  margin-top: 12px;
+}
 #page main h1{
+  line-height: 140%;
+  font-size: 40px;
+}
+h1,h2{
   color: #291B1A;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+h2{
+  font-size: 24px;
+}
+p,ul{
+  color: #573A37;
+  font-size: 16px;
+}
+ul{
+  padding-left: 24px;
 }
