@@ -1,0 +1,15 @@
+body{
+  background-image: url(./assets/bg-image.jpg);
+  background-size: cover; /* Cobre todo o espaço do body com a imagem*/
+}
+#page{
+  box-sizing: border-box;
+  padding: 24px;
+  width: 800px;
+  background-color: #F0E8C2;
+  margin: 48px auto 100px;
+  border-radius: 24px;
+}
+#page main h1{
+  color: #291B1A;
+}
